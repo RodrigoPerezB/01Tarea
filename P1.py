@@ -15,6 +15,7 @@ x=Radsol[:,0]*0.001
 y=Radsol[:,1]
 
 plt.plot(x,y,color='r')
+plt.yscale('log')
 plt.xlabel('Longitud de onda $[\mu$$m]$')
 plt.ylabel('Flujo $[\\frac{g}{s^3*\mu m}]$')
 plt.title("Flujo vs longitud de onda",color='b')
